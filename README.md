@@ -39,8 +39,10 @@ cd Pmail-selfuse
 sudo apt update
 sudo apt install screen
 
-(crontab -l 2>/dev/null; echo "* * * * * /bin/bash /root/Pmail-selfuse/script.sh >> /root/Pmail-selfuse/script.log 2>&1") | crontab -
+chmod +x /root/Pmail-selfuse/script.sh
 
+CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh'
+(crontab -l 2>/dev/null; echo "$CRON_JOB") | sort -u | crontab -
 
 ```
 
