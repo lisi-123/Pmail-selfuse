@@ -35,12 +35,12 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64
 
 ```
 
-运行之后，提示 Please click http://你的ip   to continue.
+运行之后，根据提示前往 http://你的ip 
 
 根据提示填写就行
 
 
-注意：SMTP域名建议使用主域名，否则之后很可能填错
+域名设置那里，web域名可以随意，但是SMTP域名建议使用主域名，否则后面可能填错
 
 <br>
 
