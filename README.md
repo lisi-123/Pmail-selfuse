@@ -1,6 +1,6 @@
 # Pmail搭建方法（自用）
 
-1.检测系统构架
+###1.检测系统构架
 
 ```bash
 uname -m
@@ -15,7 +15,7 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 
 <br>
 
-2.拉取项目
+###2.拉取项目
 
 ```bash
 git clone https://github.com/lisi-123/Pmail-selfuse.git
@@ -24,7 +24,7 @@ git clone https://github.com/lisi-123/Pmail-selfuse.git
 
 <br>
 
-3.运行
+###3.运行
 
 ```bash
 chmod +x /root/Pmail-selfuse/pmail_linux_amd64
@@ -44,7 +44,7 @@ cd Pmail-selfuse
 
 <br>
 
-4.使用screen实现持续运行
+###4.使用screen实现持续运行
 
 ssh中断会导致Pmail停止运行
 
