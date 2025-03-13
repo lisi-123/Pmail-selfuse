@@ -13,14 +13,54 @@ uname -m
 
 Pmail项目地址 https://github.com/Jinnrry/PMail
 
-2.安装Pmail
+2.拉取项目
 
 ```bash
 git clone https://github.com/lisi-123/Pmail-selfuse.git
 
 ```
 
-
-
+3.运行
 
 ```bash
+cd Pmail-selfuse
+
+./pmail_linux_amd64 -p 80
+
+```
+
+运行之后，根据提示去浏览器完成部署
+
+
+
+4.使用screen实现邮箱持续运行
+
+```bash
+sudo apt update
+sudo apt install screen
+
+(crontab -l 2>/dev/null; echo "* * * * * /bin/bash /root/Pmail-selfuse/script.sh >> /root/Pmail-selfuse/script.log 2>&1") | crontab -
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
