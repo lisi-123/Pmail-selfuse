@@ -31,7 +31,7 @@ apt-get update && apt install sudo -y && sudo apt update && sudo apt install git
 ### 3.运行
 
 ```bash
-chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd Pmail-selfuse && ./pmail_linux_amd64 -p 80
+chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pmail_linux_amd64 -p 80
 
 ```
 
