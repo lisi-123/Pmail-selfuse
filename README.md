@@ -35,7 +35,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64
 
 ```
 
-运行之后，根据提示前往 http://你的ip 
+运行之后，前往 http://你的ip 
 
 根据提示填写就行
 
