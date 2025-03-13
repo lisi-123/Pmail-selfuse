@@ -56,7 +56,6 @@ ssh中断会导致Pmail停止运行
 
 在Pmail停止运行的情况下，执行以下内容
 
-Pmail会在一分钟内启动
 
 ```bash
 sudo apt update
@@ -71,11 +70,13 @@ CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh'
 
 ```
 
+Pmail会在执行后的一分钟内自动启动
+
 <br>
 
 
 
-具体使用文档参考Pmail项目地址
+其他具体使用方法，参考Pmail项目地址
 
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
