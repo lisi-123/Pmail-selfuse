@@ -16,7 +16,7 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 2.安装Pmail
 
 ```bash
-apt-get install wget -y && wget -O Pmail-1.sh https://raw.githubusercontent.com/lisi-123/Pmail-selfuse/main/Pmail-1.sh && chmod +x Pmail-1.sh && ./Pmail-1.sh
+git remote set-url origin https://github.com/lisi-123/Pmail-selfuse
 ```
 
 
