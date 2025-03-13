@@ -13,12 +13,16 @@ uname -m
 
 Pmail项目地址 https://github.com/Jinnrry/PMail
 
+<br>
+
 2.拉取项目
 
 ```bash
 git clone https://github.com/lisi-123/Pmail-selfuse.git
 
 ```
+
+<br>
 
 3.运行
 
@@ -38,9 +42,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64
 
 注意：SMTP域名建议使用主域名，否则之后很可能填错
 
-
-
-
+<br>
 
 4.使用screen实现邮箱持续运行
 
@@ -57,6 +59,7 @@ CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh'
 
 ```
 
+<br>
 
 
 
