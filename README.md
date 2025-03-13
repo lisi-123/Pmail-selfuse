@@ -22,15 +22,7 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 ### 2.拉取项目
 
 ```bash
-apt-get update
-
-apt install sudo -y
-
-sudo apt update
-
-sudo apt install git -y
-
-git clone https://github.com/lisi-123/Pmail-selfuse.git
+apt-get update && apt install sudo -y && sudo apt update && sudo apt install git -y && git clone https://github.com/lisi-123/Pmail-selfuse.git
 
 ```
 
@@ -39,11 +31,7 @@ git clone https://github.com/lisi-123/Pmail-selfuse.git
 ### 3.运行
 
 ```bash
-chmod +x /root/Pmail-selfuse/pmail_linux_amd64
-
-cd Pmail-selfuse
-
-./pmail_linux_amd64 -p 80
+chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd Pmail-selfuse && ./pmail_linux_amd64 -p 80
 
 ```
 
@@ -64,15 +52,7 @@ ssh中断会导致Pmail停止运行
 
 
 ```bash
-sudo apt update
-
-sudo apt install screen
-
-chmod +x /root/Pmail-selfuse/script.sh
-
-CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh'
-
-(crontab -l 2>/dev/null; echo "$CRON_JOB") | sort -u | crontab -
+sudo apt update && sudo apt install screen && chmod +x /root/Pmail-selfuse/script.sh && CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh' && (crontab -l 2>/dev/null; echo "$CRON_JOB") | sort -u | crontab -
 
 ```
 
