@@ -44,7 +44,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64
 
 <br>
 
-4.使用screen实现邮箱持续运行
+4.使用screen实现持续运行
 
 ```bash
 sudo apt update
