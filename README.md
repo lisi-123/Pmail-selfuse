@@ -9,11 +9,7 @@ uname -m
 
 ```
 
-##### 小白遇到各种 command not found 请先执行
 
-```bash
-apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y
-```
 
 显示 x86_64 或 amd64 表示 64 位 x86 架构
 
