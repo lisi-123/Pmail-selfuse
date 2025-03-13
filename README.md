@@ -27,9 +27,11 @@ git clone https://github.com/lisi-123/Pmail-selfuse.git
 3.运行
 
 ```bash
-cd Pmail-selfuse
+chmod +x /root/Pmail-selfuse/plugins/telegram_push_linux_amd64
 
 chmod +x /root/Pmail-selfuse/pmail_linux_amd64
+
+cd Pmail-selfuse
 
 ./pmail_linux_amd64 -p 80
 
