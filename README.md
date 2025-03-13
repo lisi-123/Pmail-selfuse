@@ -25,11 +25,20 @@ git clone https://github.com/lisi-123/Pmail-selfuse.git
 ```bash
 cd Pmail-selfuse
 
+chmod +x /root/Pmail-selfuse/pmail_linux_amd64
+
 ./pmail_linux_amd64 -p 80
 
 ```
 
-运行之后，根据提示去浏览器完成部署
+运行之后，提示 Please click http://你的ip   to continue.
+
+根据提示填写就行
+
+
+注意：SMTP域名建议使用主域名，否则之后很可能填错
+
+
 
 
 
