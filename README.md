@@ -46,6 +46,12 @@ cd Pmail-selfuse
 
 4.使用screen实现持续运行
 
+ssh中断会导致Pmail停止运行
+
+在Pmail停止运行的情况下，执行以下内容
+
+Pmail会在一分钟内启动
+
 ```bash
 sudo apt update
 
