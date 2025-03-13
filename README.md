@@ -22,7 +22,7 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 ### 2.拉取项目
 
 ```bash
-apt-get update && apt install sudo -y && sudo apt update && sudo apt install git -y && git clone https://github.com/lisi-123/Pmail-selfuse.git
+apt-get update && apt install sudo -y && sudo apt install git -y && git clone https://github.com/lisi-123/Pmail-selfuse.git
 
 ```
 
