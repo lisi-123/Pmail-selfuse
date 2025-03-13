@@ -63,14 +63,16 @@ CRON_JOB='* * * * * /root/Pmail-selfuse/script.sh'
 
 
 
+具体使用文档参考Pmail项目地址
+
+https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
 
 
 
+<br>
 
-
-
-
+<br>
 
 
 
