@@ -9,6 +9,12 @@ uname -m
 
 ```
 
+##### 小白遇到各种 command not found 请先执行
+
+```bash
+apt-get update; apt-get install wget -y; apt install sudo -y; sudo apt install curl -y
+```
+
 显示 x86_64 或 amd64 表示 64 位 x86 架构
 
 其他请前往Pmail官方寻找对应的包自行部署
@@ -20,6 +26,10 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 ### 2.拉取项目
 
 ```bash
+apt-get update
+
+apt install sudo -y
+
 sudo apt update
 
 sudo apt install git -y
