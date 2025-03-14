@@ -71,30 +71,30 @@ Pmail会在执行后的一分钟内自动启动
 
 #### 假设搭建的时候填写的内容如下
 
-&nbsp&nbsp smtp域名： example.com
+&nbsp;&nbsp; smtp域名： example.com
 
-&nbsp&nbsp web域名： pmail.example.com
+&nbsp;&nbsp; web域名： pmail.example.com
 
-&nbsp&nbsp 管理员： admin
+&nbsp;&nbsp; 管理员： admin
 
-&nbsp&nbsp 密码： 123456
+&nbsp;&nbsp; 密码： 123456
 
 <br>
 
 #### 当使用smtp服务时
 
 
-&nbsp&nbsp SMTP服务器地址： smtp.example.com
+&nbsp;&nbsp; SMTP服务器地址： smtp.example.com
 
-&nbsp&nbsp SMTP服务端口： 465
+&nbsp;&nbsp; SMTP服务端口： 465
 
-&nbsp&nbsp SMTP加密方式： SSL
+&nbsp;&nbsp; SMTP加密方式： SSL
 
-&nbsp&nbsp SMTP账号： admin@example.com
+&nbsp;&nbsp; SMTP账号： admin@example.com
 
-&nbsp&nbsp SMTP密码： 123456
+&nbsp;&nbsp; SMTP密码： 123456
 
-&nbsp&nbsp 发件地址： admin@example.com
+&nbsp;&nbsp; 发件地址： admin@example.com
 
 <br>
 
