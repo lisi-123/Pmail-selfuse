@@ -98,7 +98,7 @@ Pmail会在执行后的一分钟内自动启动
 
 <br>
 
-#### 其他使用方法，参考Pmail项目地址
+#### 其他使用方法，建议参考Pmail项目地址
 
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
