@@ -3,7 +3,7 @@
 <br>
 <br>
 
-### 1.检测系统构架
+## 1.检测系统构架
 
 ```bash
 uname -m
@@ -19,7 +19,7 @@ Pmail项目地址 https://github.com/Jinnrry/PMail
 <br>
 <br>
 
-### 2.拉取项目
+## 2.拉取项目
 
 ```bash
 apt-get update && apt install sudo -y && sudo apt install git -y && git clone https://github.com/lisi-123/Pmail-selfuse.git
@@ -29,7 +29,7 @@ apt-get update && apt install sudo -y && sudo apt install git -y && git clone ht
 <br>
 <br>
 
-### 3.运行
+## 3.运行
 
 ```bash
 chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pmail_linux_amd64 -p 80
@@ -48,7 +48,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pm
 <br>
 <br>
 
-### 4.使用screen实现持续运行
+## 4.使用screen实现持续运行
 
 ssh中断会导致Pmail停止运行
 
@@ -65,7 +65,7 @@ Pmail会在执行后的一分钟内自动启动
 <br>
 <br>
 
-### 5.SMTP使用方法
+## 5.SMTP使用方法
 
 
 #### 假设搭建的时候填写的内容如下
