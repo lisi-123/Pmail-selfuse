@@ -62,9 +62,39 @@ Pmail会在执行后的一分钟内自动启动
 
 <br>
 
+### 5.SMTP使用方法
 
 
-其他具体使用方法，参考Pmail项目地址
+假设搭建的时候填写的内容如下
+
+smtp域名： example.com
+
+web域名： pmail.example.com
+
+管理员： admin
+
+密码： 123456
+
+
+当使用smtp服务时
+
+
+SMTP服务器地址： smtp.example.com
+
+SMTP服务端口： 465
+
+SMTP加密方式： SSL
+
+SMTP账号： admin@example.com
+
+SMTP密码： 123456
+
+发件地址： admin@example.com
+
+
+
+
+其他使用方法，参考Pmail项目地址
 
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
