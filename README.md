@@ -37,6 +37,8 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pm
 
 运行之后，前往 http://你的ip 
 
+<img src="./cn.gif" alt="Editor" width="800px">
+
 根据提示填写就行
 
 
