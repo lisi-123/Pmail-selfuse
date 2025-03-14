@@ -50,7 +50,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pm
 
 ## 4.使用screen实现持续运行
 
-ssh中断会导致Pmail停止运行
+ssh断开连接就会导致Pmail停止运行
 
 在Pmail停止运行的情况下，执行以下内容
 
