@@ -80,7 +80,7 @@ Pmail会在执行后的一分钟内自动启动
 
 <br>
 
-#### 当使用smtp服务时
+#### 那么当使用smtp服务时
 
 
 &nbsp;&nbsp; SMTP服务器地址： smtp.example.com
@@ -97,7 +97,7 @@ Pmail会在执行后的一分钟内自动启动
 
 <br>
 
-#### 其他使用方法，建议参考Pmail项目地址
+##### 其他使用方法，建议参考Pmail项目地址
 
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
