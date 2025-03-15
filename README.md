@@ -47,7 +47,7 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pm
 
 SMTP域名建议使用主域名，否则后面可能填错
 
-另外不建议设置多个smtp域名，容易出问题
+另外不建议使用“多域名设置”，容易出问题
 
 <br>
 <br>
