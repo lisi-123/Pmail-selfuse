@@ -43,7 +43,11 @@ chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pm
 根据提示填写就行
 
 
-域名设置那里，web域名可以随意，但是SMTP域名建议使用主域名，否则后面可能填错
+域名设置那里，web域名可以随意
+
+SMTP域名建议使用主域名，否则后面可能填错
+
+另外不建议设置多个smtp域名，容易出问题
 
 <br>
 <br>
@@ -95,6 +99,19 @@ SMTP密码： 123456
 发件地址： admin@example.com
 
 <br>
+
+## 6.注意事项
+
+如果邮箱服务启动不了，有可能是vps自带的邮箱程序占用了25端口
+
+```bash
+sudo systemctl stop postfix
+sudo systemctl stop exim
+sudo systemctl stop sendmail
+```
+
+<br>
+
 
 ##### 其他使用方法，建议参考Pmail项目地址
 
