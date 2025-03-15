@@ -102,7 +102,7 @@ SMTP密码： 123456
 
 ## 6.注意事项
 
-如果邮箱服务启动不了，有可能是vps自带的邮箱程序占用了25端口
+如果 Pmail 启动不了，有可能是vps自带的邮箱程序占用了25端口
 
 ```bash
 sudo systemctl stop postfix
