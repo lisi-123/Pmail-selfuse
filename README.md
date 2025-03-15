@@ -56,7 +56,7 @@ ssh断开连接就会导致Pmail停止运行
 
 
 ```bash
-sudo apt update && sudo apt install -y screen && chmod +x /root/Pmail-selfuse/script.sh && (crontab -l 2>/dev/null; echo "* * * * * /root/Pmail-selfuse/script.sh") | sort -u | crontab -
+sudo apt update && sudo apt install -y screen && sudo apt install cron -y && chmod +x /root/Pmail-selfuse/script.sh && (crontab -l 2>/dev/null; echo "* * * * * /root/Pmail-selfuse/script.sh") | sort -u | crontab -
 
 ```
 
