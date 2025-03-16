@@ -118,6 +118,8 @@ sudo systemctl stop sendmail
 
 ## 7.删除Pmail
 
+如果需要删除Pmail
+
 ```bash
 sudo chmod +x /root/Pmail-selfuse/delete-pmail.sh && sudo /root/Pmail-selfuse/delete-pmail.sh
 
