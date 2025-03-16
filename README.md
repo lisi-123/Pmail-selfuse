@@ -1,4 +1,4 @@
-# Pmail搭建方法（自用）
+# Pmail搭建方法（amd64）
 
 <br>
 <br>
