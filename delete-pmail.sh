@@ -12,7 +12,7 @@ crontab -l | grep -v '/root/Pmail-selfuse/script.sh' | crontab -
 
 # 终止相关进程
 echo "终止 pmail 进程..."
-pkill -f "pmail_linux_amd64 -p 80"
+pkill -f "pmail_linux_arm64 -p 80"
 
 # 删除目录 /root/Pmail-selfuse
 echo "删除目录 /root/Pmail-selfuse..."
