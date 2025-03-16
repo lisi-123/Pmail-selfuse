@@ -23,7 +23,7 @@ x86看这个 https://github.com/lisi-123/Pmail-selfuse
 ## 2.拉取项目
 
 ```bash
-apt-get update && apt install sudo -y && sudo apt install git -y && git clone https://github.com/lisi-123/Pmail-selfuse.git
+apt-get update && apt install sudo -y && sudo apt install git -y && git clone -b arm64 --single-branch https://github.com/lisi-123/Pmail-selfuse.git
 
 ```
 
@@ -33,7 +33,7 @@ apt-get update && apt install sudo -y && sudo apt install git -y && git clone ht
 ## 3.运行
 
 ```bash
-chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pmail_linux_amd64 -p 80
+chmod +x /root/Pmail-selfuse/pmail_linux_arm64 && cd /root/Pmail-selfuse && ./pmail_linux_arm64 -p 80
 
 ```
 
