@@ -10,11 +10,9 @@ uname -m
 
 ```
 
-显示 aarch64 或 arm64 请继续下一步
+显示 aarch64 请继续下一步
 
-显示 x86_64 或 amd64 表示 64 位 x86 架构
-
-x86看这个 https://github.com/lisi-123/Pmail-selfuse
+显示 x86_64 看这个 https://github.com/lisi-123/Pmail-selfuse
 
 其他构架请前往Pmail官方寻找对应的包自行部署
 
