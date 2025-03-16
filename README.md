@@ -16,6 +16,9 @@ uname -m
 
 x86看这个 https://github.com/lisi-123/Pmail-selfuse
 
+其他构架请前往Pmail官方寻找对应的包自行部署
+
+Pmail项目地址 https://github.com/Jinnrry/PMail
 
 <br>
 <br>
