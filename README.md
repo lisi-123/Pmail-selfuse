@@ -12,7 +12,13 @@ uname -m
 
 显示 x86_64 或 amd64 表示 64 位 x86 架构
 
-其他请前往Pmail官方寻找对应的包自行部署
+amd64构架继续看下一步
+
+显示 aarch64 或 arm64 去看分支
+
+https://github.com/lisi-123/Pmail-selfuse/tree/arm64
+
+其他构架请前往Pmail官方寻找对应的包自行部署
 
 Pmail项目地址 https://github.com/Jinnrry/PMail
 
