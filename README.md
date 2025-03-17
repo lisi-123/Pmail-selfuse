@@ -34,11 +34,11 @@ apt-get update && apt install sudo -y && sudo apt install git -y && git clone -b
 ## 3.运行
 
 ```bash
-chmod +x /root/Pmail-selfuse/pmail_linux_arm64 && cd /root/Pmail-selfuse && ./pmail_linux_arm64 -p 80
+sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/start-pmail.sh
 
 ```
 
-运行之后，前往 http://你的ip 
+运行之后，前往 http://你的ip：端口
 
 <img src="./cn.gif" alt="Editor" width="800px">
 
@@ -49,7 +49,9 @@ chmod +x /root/Pmail-selfuse/pmail_linux_arm64 && cd /root/Pmail-selfuse && ./pm
 
 SMTP域名建议使用主域名，否则后面可能填错
 
-另外不建议使用“多域名设置”，容易出问题
+不建议使用“多域名设置”，容易出问题
+
+ssl设置，如果没有使用80端口，只能选择dns模式自动获取证书
 
 <br>
 <br>
