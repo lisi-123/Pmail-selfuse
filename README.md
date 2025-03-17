@@ -1,4 +1,4 @@
-# Pmail搭建方法（arm64）
+# Pmail部署方法（arm64）
 
 <br>
 <br>
