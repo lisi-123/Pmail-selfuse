@@ -42,6 +42,8 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 运行之后，前往 http://你的ip：端口
 
+如果使用了防火墙，需要开启对应端口
+
 <img src="./cn.gif" alt="Editor" width="800px">
 
 
