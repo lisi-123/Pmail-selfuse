@@ -36,22 +36,23 @@ apt-get update && apt install sudo -y && sudo apt install git -y && git clone ht
 ## 3.运行
 
 ```bash
-chmod +x /root/Pmail-selfuse/pmail_linux_amd64 && cd /root/Pmail-selfuse && ./pmail_linux_amd64 -p 80
+sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/start-pmail.sh
 
 ```
 
-运行之后，前往 http://你的ip 
+运行之后，前往 http://你的ip：端口
 
 <img src="./cn.gif" alt="Editor" width="800px">
 
-根据提示填写就行
 
 
 域名设置那里，web域名可以随意
 
 SMTP域名建议使用主域名，否则后面可能填错
 
-另外不建议使用“多域名设置”，容易出问题
+不建议使用“多域名设置”，容易出问题
+
+ssl设置那里，没使用80端口的话，只能用dns模式签证书
 
 <br>
 <br>
