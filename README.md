@@ -113,6 +113,8 @@ SMTP密码： 123456
 
 发件地址： admin@example.com
 
+<br>
+
 如果不想使用注册时的管理员账号发邮件
 
 可以在pmail界面添加一个新用户
@@ -121,6 +123,7 @@ SMTP账号和发件地址都是 新用户名@example.com
 
 SMTP密码就是新用户的密码
 
+<br>
 <br>
 
 ## 6.注意事项
@@ -133,6 +136,7 @@ sudo systemctl stop exim
 sudo systemctl stop sendmail
 ```
 
+<br>
 <br>
 
 ## 7.删除Pmail
