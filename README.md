@@ -158,9 +158,17 @@ sudo systemctl stop sendmail
 
 <br>
 
++ 成功搭建邮局后，可以去这里检测邮局还有哪些问题
+
+  &nbsp;&nbsp;&nbsp; https://www.mail-tester.com/?lang=zh
+
+  &nbsp;&nbsp;&nbsp; 实测8分以上，基本上就可以进邮箱了。只要不滥发邮件，就不会进垃圾箱
+
+<br>
+
 + 相同域名每次重新搭建邮局，都需要把内容最长的那条TXT记录删掉
 
-  &nbsp;&nbsp;&nbsp;然后重新解析，不然会出现DKIM签名无效的问题（具体原因不明）
+  &nbsp;&nbsp;&nbsp;然后重新解析，不然会出现 **DKIM签名无效** 的问题（具体原因不明）
 
 
 <br>
