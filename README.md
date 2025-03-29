@@ -71,7 +71,20 @@ SMTP域名建议使用主域名，否则后面可能填错
 
 目前，ssh断开连接就会导致Pmail停止运行
 
-在Pmail停止运行的情况下，执行以下内容
+所以需要使用screen实现pmail后台持续运行
+
+但是持续运行脚本需要在pmail停止运行的情况下才能执行
+
+所以建议断开ssh，然后重连，重新ssh连接后，执行
+
+```bash
+pkill pmail
+
+```
+
+尝试杀死可能存在的pmail进程
+
+确保在Pmail停止运行的情况下，执行以下内容
 
 
 ```bash
@@ -135,10 +148,6 @@ sudo systemctl stop postfix
 sudo systemctl stop exim
 sudo systemctl stop sendmail
 ```
-
-如果第四步的持续运行执行不了，可能是pmail进程有残留，导致后台运行失败
-
-执行 pkill pmail 然后再去试试
 
 
 相同的ip重新搭建邮局，需要把内容最长的那条txt记录删掉，然后重新解析，不然会出问题（具体原因不明）
