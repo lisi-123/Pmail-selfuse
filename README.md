@@ -52,7 +52,7 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 但是 **SMTP域名** 建议如图使用 **主域名** ！！！！！
 
-否则后面可能填错！！！！（特别点名看不懂原理且使用cf的用户）
+否则后面很可能填错！！！！（特别点名看不懂原理且使用cf的用户）
 
 不建议使用“多域名设置”，容易出问题
 
