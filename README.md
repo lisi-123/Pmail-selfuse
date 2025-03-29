@@ -64,7 +64,7 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
   &nbsp;&nbsp;&nbsp;内容：v=DMARC1; p=reject
 
-  &nbsp;&nbsp;&nbsp;可以强制拒收不合规邮件，从而提高邮件信誉
+  &nbsp;&nbsp;&nbsp;这条TXT记录可以强制拒收不合规邮件，从而提高邮件信誉
 
 <br>
 <br>
