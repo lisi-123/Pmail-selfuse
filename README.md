@@ -52,7 +52,7 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 + web域名可以随意，但是 **SMTP域名** 建议如图使用 **主域名** ！！！！！
 
-  &nbsp;&nbsp;&nbsp;否则后面很可能填错！！！！（特别点名看不懂原理且使用cloudflare的用户）
+  &nbsp;&nbsp;&nbsp;否则后面很可能填错！！！！
   
   &nbsp;&nbsp;&nbsp;如果能真正理解该怎么解析，当我没说，爱用几级域名都行
 
