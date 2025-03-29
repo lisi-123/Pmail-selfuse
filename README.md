@@ -143,7 +143,7 @@ SMTP密码就是新用户的密码
 
 ## 6.注意事项
 
-如果 Pmail 启动不了，有可能是vps自带的邮箱程序占用了25端口
++ 如果 Pmail 启动不了，有可能是vps自带的邮箱程序占用了25端口
 
 ```bash
 sudo systemctl stop postfix
@@ -151,10 +151,11 @@ sudo systemctl stop exim
 sudo systemctl stop sendmail
 ```
 
+<br>
 
-相同域名每次重新搭建邮局，都需要把内容最长的那条TXT记录删掉
++ 相同域名每次重新搭建邮局，都需要把内容最长的那条TXT记录删掉
 
-然后重新解析，不然会出现DKIM签名无效的问题（具体原因不明）
+  &nbsp;&nbsp;&nbsp;然后重新解析，不然会出现DKIM签名无效的问题（具体原因不明）
 
 
 <br>
