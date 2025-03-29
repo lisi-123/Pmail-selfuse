@@ -50,7 +50,7 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 域名设置那里，web域名可以随意
 
-但是 **SMTP域名** 建议如图使用 **主 域 名** ！！！！！
+但是 **SMTP域名** 建议如图使用 **主域名** ！！！！！
 
 否则后面可能填错！！！！（特别点名看不懂原理且使用cf的用户）
 
