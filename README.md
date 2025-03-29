@@ -48,23 +48,23 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 
 
-域名设置那里，web域名可以随意
+域名设置中：
 
-但是 **SMTP域名** 建议如图使用 **主域名** ！！！！！
++ web域名可以随意，但是 **SMTP域名** 建议如图使用 **主域名** ！！！！！
 
-否则后面很可能填错！！！！（特别点名看不懂原理且使用cf的用户）
+  &nbsp;&nbsp;&nbsp;否则后面很可能填错！！！！（特别点名看不懂原理且使用cf的用户）
 
-不建议使用“多域名设置”，容易出问题
++ 不建议使用“多域名设置”，容易出问题
 
-如果没有使用80端口，ssl设置 只能选择“dns记录”自动获取证书
++ 如果没有使用80端口，ssl设置 只能选择“dns记录”自动获取证书
 
-另外建议额外添加一个TXT记录
++ 另外建议额外添加一个TXT记录
 
-名称：_dmarc
+  &nbsp;&nbsp;&nbsp;名称：_dmarc
 
-内容：v=DMARC1; p=reject
+  &nbsp;&nbsp;&nbsp;内容：v=DMARC1; p=reject
 
-可以强制拒收不合规邮件，从而提高邮件信誉
+  &nbsp;&nbsp;&nbsp;可以强制拒收不合规邮件，从而提高邮件信誉
 
 <br>
 <br>
