@@ -11,6 +11,7 @@
 | **1核2g 3.5T双向流量** | **18.29 美元/年** | [点击这里](https://my.racknerd.com/aff.php?aff=14121&pid=904) |
 | **2核3.5g 7T双向流量** | **32.49 美元/年** | [点击这里](https://my.racknerd.com/aff.php?aff=14121&pid=905) |
 
+点击查看 <a href="https://my.racknerd.com/index.php?aff=14121&rp=/store/new-year-2025"><strong>更多优惠套餐</strong></a>
 
 <br>
 
