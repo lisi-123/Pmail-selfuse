@@ -3,6 +3,17 @@
 <br>
 <br>
 
+首先需要一台支持25端口的vps，这里推荐 <a href="https://my.racknerd.com/aff.php?aff=14121"><strong>racknerd</strong></a>
+
+| 配置 | 价格 | 链接 |
+| --- | --- | --- |
+| **1核1g 2T双向流量** | **11.29 美元/年** | [点击这里](https://my.racknerd.com/aff.php?aff=14121&pid=903) |
+| **1核2g 3.5T双向流量** | **18.29 美元/年** | [点击这里](https://my.racknerd.com/aff.php?aff=14121&pid=904) |
+| **2核3.5g 7T双向流量** | **32.49 美元/年** | [点击这里](https://my.racknerd.com/aff.php?aff=14121&pid=905) |
+
+
+<br>
+
 ## 1.检测系统构架
 
 ```bash
