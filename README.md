@@ -98,6 +98,9 @@ sudo apt update && sudo apt install -y screen && sudo apt install cron -y && chm
 
 Pmail会在执行后的一分钟内，在vps后台自启动，并持续运行
 
+如果成功自启动，那么以后哪怕重启vps，pmail也会在一分钟内自动恢复
+
+
 <br>
 <br>
 
