@@ -1,14 +1,14 @@
 [Unit]
-Description=PMail Service
+Description=PMail Self-use Service
 After=network.target
 
 [Service]
-Type=simple
 ExecStart=/root/Pmail-selfuse/pmail_linux_amd64 -p 80
+WorkingDirectory=/root/Pmail-selfuse/
 Restart=always
-RestartSec=5
+RestartSec=10
 User=root
-WorkingDirectory=/root/Pmail-selfuse
+Environment=PATH=/usr/bin:/bin
 
 [Install]
 WantedBy=multi-user.target
