@@ -16,10 +16,6 @@ uname -m
 
 显示 x86_64 继续看下一步
 
-显示 aarch64 去看分支
-
-https://github.com/lisi-123/Pmail-selfuse/tree/arm64
-
 其他构架请前往Pmail官方寻找对应的包自行部署
 
 Pmail项目地址 https://github.com/Jinnrry/PMail
