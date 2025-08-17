@@ -44,9 +44,9 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 ```
 
-运行之后，前往 http://你的ip：端口
+运行之后，前往 http://你的ip：80
 
-如果使用了防火墙，需要开启对应端口
+如果使用了防火墙，需要开启80端口
 
 <img src="./cn.gif" alt="Editor" width="800px">
 
@@ -62,8 +62,6 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 
 + 不建议使用“多域名设置”，容易出问题
 
-+ 如果没有使用80端口，ssl设置 只能选择“dns记录”自动获取证书
-
 + 另外建议额外添加一个TXT记录
 
   &nbsp;&nbsp;&nbsp;名称：_dmarc
@@ -75,40 +73,8 @@ sudo chmod +x /root/Pmail-selfuse/start-pmail.sh && sudo /root/Pmail-selfuse/sta
 <br>
 <br>
 
-## 4.使用screen实现后台持续运行
 
-目前，ssh断开连接就会导致Pmail停止运行
-
-所以需要使用screen实现pmail后台持续运行
-
-但是持续运行脚本需要在pmail停止运行的情况下才能执行
-
-所以建议断开ssh，然后重连，重新ssh连接后，执行
-
-```bash
-pkill pmail
-
-```
-
-尝试杀死可能存在的pmail进程
-
-确保在Pmail停止运行的情况下，执行以下内容
-
-
-```bash
-sudo apt update && sudo apt install -y screen && sudo apt install cron -y && chmod +x /root/Pmail-selfuse/script.sh && (crontab -l 2>/dev/null; echo "* * * * * /root/Pmail-selfuse/script.sh") | sort -u | crontab -
-
-```
-
-Pmail会在执行后的一分钟内，在vps后台自启动，并持续运行
-
-如果成功自启动，那么以后哪怕重启vps，pmail也会在一分钟内自动恢复
-
-
-<br>
-<br>
-
-## 5.SMTP使用方法
+## 4.SMTP使用方法
 
 
 #### 假设搭建的时候填写的内容如下
@@ -150,7 +116,7 @@ SMTP密码就是新用户的密码
 <br>
 <br>
 
-## 6.注意事项
+## 5.注意事项
 
 + 如果 Pmail 启动不了，有可能是vps自带的邮箱程序占用了25端口
 
@@ -178,7 +144,7 @@ sudo systemctl stop sendmail
 <br>
 <br>
 
-## 7.删除Pmail
+## 6.删除Pmail
 
 如果需要删除Pmail(卸载)
 
