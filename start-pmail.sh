@@ -1,16 +1,19 @@
 #!/bin/bash
 
-# 赋予可执行权限
+# 确保程序有执行权限
 chmod +x /root/Pmail-selfuse/pmail_linux_amd64
-cd /root/Pmail-selfuse
 
-# 让用户输入端口号
-read -p "请输入端口号 (默认 80): " PORT
-PORT=${PORT:-80}  # 如果用户没有输入端口号，则使用80作为默认值
+# 复制 service 文件到 systemd
+cp /root/Pmail-selfuse/pmail.service /etc/systemd/system/pmail.service
 
-# 修改 delete-pmail.sh 和 script.sh 中的端口号
-sed -i "s/pmail_linux_amd64 -p [0-9]\+/pmail_linux_amd64 -p $PORT/g" delete-pmail.sh
-sed -i "s/pmail_linux_amd64 -p [0-9]\+/pmail_linux_amd64 -p $PORT/g" script.sh
+# 重新加载 systemd
+systemctl daemon-reload
 
-# 运行程序
-./pmail_linux_amd64 -p "$PORT"
+# 启动服务
+systemctl start pmail
+
+# 设置开机自启
+systemctl enable pmail
+
+# 查看运行状态
+systemctl status pmail --no-pager -l
