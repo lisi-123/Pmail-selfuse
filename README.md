@@ -146,8 +146,13 @@ sudo systemctl stop sendmail
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
 
+##### 更新
+```bash
+git fetch origin
+git checkout origin/main -- .
+systemctl restart pmail
 
-
+```
 <br>
 
 <br>
