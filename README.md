@@ -150,6 +150,7 @@ https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 ```bash
 git fetch origin
 git checkout origin/main -- .
+chmod +x /root/Pmail-selfuse/pmail_linux_amd64
 systemctl restart pmail
 
 ```
