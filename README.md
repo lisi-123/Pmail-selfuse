@@ -146,8 +146,9 @@ sudo systemctl stop sendmail
 https://github.com/Jinnrry/PMail/blob/master/README_CN.md
 
 
-##### 更新
+##### 如果项目更新了，执行
 ```bash
+cd /root/Pmail-selfuse
 git fetch origin
 git checkout origin/main -- .
 chmod +x /root/Pmail-selfuse/pmail_linux_amd64
